@@ -1,14 +1,12 @@
 import Navigation from "../Components/Navigation"
 
-function Portfolio() {
-
-
-    return (
+function Contact() {
+    return(
         <>
             <Navigation />
-            <h1>Portfolio</h1>
+            <h1>Contact</h1>
         </>
     )
 }
 
-export default Portfolio
+export default Contact

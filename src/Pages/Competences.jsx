@@ -1,14 +1,12 @@
 import Navigation from "../Components/Navigation"
 
-function Portfolio() {
-
-
-    return (
+function Competences() {
+    return(
         <>
             <Navigation />
-            <h1>Portfolio</h1>
+            <h1>Competences</h1>
         </>
     )
 }
 
-export default Portfolio
+export default Competences

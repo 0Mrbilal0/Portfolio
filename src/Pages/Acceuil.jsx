@@ -1,14 +1,11 @@
 import Navigation from "../Components/Navigation"
 
-function Portfolio() {
-
-
-    return (
+function Accueil() {
+    return(
         <>
             <Navigation />
-            <h1>Portfolio</h1>
         </>
     )
 }
 
-export default Portfolio
+export default Accueil
