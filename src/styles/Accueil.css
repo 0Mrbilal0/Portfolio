@@ -1,15 +1,13 @@
 main {
-  padding: 0 5vw;
+  align-items: center;
 }
 
 main figure {
     display: grid;
     grid-template-areas: "photo description";
     grid-template-rows: 75vh;
-    grid-template-columns: 20vw 2fr;
-    height: auto;
-    gap: 1rem;
-    overflow: hidden;
+    align-items: center;
+    margin: 0 1rem !important;
 }
 
 figcaption {
@@ -19,15 +17,12 @@ figcaption {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  padding: 1rem 1rem !important;
+  height: 100%;
 }
 
-img {
-  overflow-x: -50%;
-  overflow-y: -50%;
-}
-
-.profil {
+figure img {
   grid-area: photo;
-  overflow: hidden;
-  
+  width: 80%;
+  justify-self: center;
 }
