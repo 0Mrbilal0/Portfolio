@@ -5,10 +5,11 @@
     "header"
     "main"
     "footer";
-  grid-template-rows: 7vh auto 10vh;
-  gap: 1rem;
+  grid-template-rows: 7vh auto 7vh;
   background-color: #4268a8;
   color: white;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -18,10 +19,14 @@ header {
 
 main {
   grid-area: main;
+  margin: 0 10vw;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 footer {
   grid-area: footer;
   background-color: #081F4B;
-  padding: 1rem ;
 }
