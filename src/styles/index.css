@@ -6,27 +6,37 @@
     "main"
     "footer";
   grid-template-rows: 7vh auto 7vh;
-  background-color: #4268a8;
   color: white;
   height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
   grid-area: header;
-  background-color: #081F4B;
+  display: flex;
+  justify-content: center;
+  background-color: #081f4b;
+  box-shadow: 4px 4px 4px 4px grey;
 }
 
 main {
   grid-area: main;
-  margin: 0 10vw;
-  background-color: aliceblue;
-  color: black;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  background-image: url("/public/medias/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+/* 
 footer {
   grid-area: footer;
   background-color: #081F4B;
+} */
+
+.font-48 {
+  font-size: 3rem ;
+}
+
+.font-40 {
+  font-size: 2.5rem;
 }
