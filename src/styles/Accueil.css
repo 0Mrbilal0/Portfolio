@@ -3,11 +3,12 @@ main {
 }
 
 main figure {
-    display: grid;
-    grid-template-areas: "photo description";
-    grid-template-rows: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 0 1rem !important;
+    gap: 1rem;
 }
 
 figcaption {
@@ -21,8 +22,22 @@ figcaption {
   height: 100%;
 }
 
+main #avatar {
+  border-radius: 50%;
+}
+
+figure #avatar {
+  overflow: hidden;
+  width: 21.875rem;
+  height: 21.875rem;
+}
+
 figure img {
   grid-area: photo;
-  width: 80%;
+  width: 100%;
   justify-self: center;
+}
+
+main ul li {
+  text-align: center;
 }
