@@ -15,8 +15,10 @@ header {
   grid-area: header;
   display: flex;
   justify-content: center;
-  background-color: #081f4b;
-  box-shadow: 4px 4px 4px 4px grey;
+  background: url("/public/medias/bg.jpg"), no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 4px 0px black;
+  z-index: 999;
 }
 
 main {
@@ -34,7 +36,7 @@ footer {
 } */
 
 .font-48 {
-  font-size: 3rem ;
+  font-size: 3rem;
 }
 
 .font-40 {
