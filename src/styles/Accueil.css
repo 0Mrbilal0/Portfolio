@@ -11,7 +11,7 @@ main figure {
     gap: 1rem;
 }
 
-figcaption {
+main figcaption {
   grid-area: description;
   display: flex !important;
   flex-direction: column;
@@ -22,17 +22,14 @@ figcaption {
   height: 100%;
 }
 
-main #avatar {
+main figure #avatar {
   border-radius: 50%;
-}
-
-figure #avatar {
   overflow: hidden;
   width: 21.875rem;
   height: 21.875rem;
 }
 
-figure img {
+main figure img {
   grid-area: photo;
   width: 100%;
   justify-self: center;
