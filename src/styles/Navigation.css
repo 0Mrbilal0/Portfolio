@@ -1,0 +1,26 @@
+nav {
+  display: flex !important;
+}
+
+nav #avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 4rem;
+  height: 4rem;
+}
+
+nav img {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
