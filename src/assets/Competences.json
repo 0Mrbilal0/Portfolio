@@ -1,0 +1,34 @@
+{
+    "Langages": [
+        {"name": "HTML", "niveau": 4},
+        {"name": "CSS", "niveau": 3},
+        {"name": "JavaScript", "niveau": 4},
+        {"name": "PHP", "niveau": 2},
+        {"name": "C", "niveau": 2},
+        {"name": "Bash", "niveau": 3},
+        {"name": "QueryJS", "niveau": 3},
+        {"name": "NodeJS", "niveau": 4},
+        {"name": "ReactJS", "niveau": 4},
+        {"name": "SQL", "niveau": 3}
+    ],
+    "Frameworks": [
+        {"name": "Laravel", "niveau": 2},
+        {"name": "Symfony", "niveau": 2},
+        {"name": "Ruby on Rails", "niveau": 2},
+        {"name": "Angular", "niveau": 3}
+    ],
+    "CMS": [
+        {"name": "WordPress", "niveau": 3},
+        {"name": "Prestashop", "niveau": 1}
+    ],
+    "Softwares": [
+        {"name": "Docker", "niveau": 2},
+        {"name": "Kubernetes", "niveau": 1},
+        {"name": "Virtual Box", "niveau": 4},
+        {"name": "JetBrains", "niveau": 5},
+        {"name": "AdobeXD", "niveau": 3},
+        {"name": "Figma", "niveau": 4},
+        {"name": "Pack Office", "niveau": 3},
+        {"name": "Burp", "niveau": 2}
+    ]
+}
