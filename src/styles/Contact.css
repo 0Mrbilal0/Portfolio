@@ -1,0 +1,33 @@
+#contact {
+    padding: 10rem;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#contact form #names {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+}
+
+#contact form section:not(#names) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#contact .input {
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#contact button {
+    width: 10vw;
+    align-self: center;
+    padding: 1rem;
+}
