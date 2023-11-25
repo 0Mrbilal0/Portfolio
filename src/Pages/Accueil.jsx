@@ -7,7 +7,7 @@ function Accueil() {
     return (
         <>
             <Navigation />
-            <main>
+            <main id="accueil">
                 <figure >
                     <section id="avatar" style={{backgroundColor: "black"}}><img src={photo} alt="avatar"/></section>
                     <figcaption>
