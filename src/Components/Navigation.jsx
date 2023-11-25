@@ -28,14 +28,14 @@ function Navigation() {
             <nav>
                 <ul>
                     {beforePages.map((page) => (
-                        <Link to={page.link}><li>{page.name}</li></Link>
+                        <Link to={page.link} key={page.name}><li>{page.name}</li></Link>
                     ))}
                 </ul>
                 <Link to={'/'}><section id="avatar" ><img src={photo} alt="Avatar" /></section></Link>
                 <ul>
                     {
                         afterPages.map((page) => (
-                            <Link to={page.link}><li>{page.name}</li></Link>
+                            <Link to={page.link} key={page.name}><li>{page.name}</li></Link>
                         ))
                     }
                 </ul>
