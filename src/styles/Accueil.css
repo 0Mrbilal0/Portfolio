@@ -1,8 +1,8 @@
-main {
+#accueil {
   align-items: center;
 }
 
-main figure {
+#accueil figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +11,7 @@ main figure {
     gap: 1rem;
 }
 
-main figcaption {
+#accueil figcaption {
   grid-area: description;
   display: flex !important;
   flex-direction: column;
@@ -22,19 +22,19 @@ main figcaption {
   height: 100%;
 }
 
-main figure #avatar {
+#accueil figure #avatar {
   border-radius: 50%;
   overflow: hidden;
   width: 21.875rem;
   height: 21.875rem;
 }
 
-main figure img {
+#accueil figure img {
   grid-area: photo;
   width: 100%;
   justify-self: center;
 }
 
-main ul li {
+#accueil ul li {
   text-align: center;
 }
