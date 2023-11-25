@@ -1,6 +1,4 @@
 import * as React from 'react'
-import { Input } from '@mui/material'
-import { Search } from '@mui/icons-material'
 
 import Footer from "../Components/Footer"
 import Navigation from "../Components/Navigation"
@@ -13,7 +11,7 @@ function Competences() {
         <>
             <Navigation />
             <main id='competences'>
-                
+
                 <section id='langages'>
                     <h2>Langages:</h2>
                     {
