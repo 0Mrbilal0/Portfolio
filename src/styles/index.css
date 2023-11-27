@@ -27,6 +27,7 @@ main {
   background-image: url("/public/medias/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0 3rem;
 }
 
 /* 
