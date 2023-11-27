@@ -13,15 +13,6 @@ function Navigation() {
         { name: 'About Me', link: '/aboutme' },
         { name: 'Contact', link: '/contact' },
     ]
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
-
-    const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget);
-    };
-
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
 
     return (
         <header>
