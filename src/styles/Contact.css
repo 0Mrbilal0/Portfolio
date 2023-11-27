@@ -30,4 +30,9 @@
     width: 10vw;
     align-self: center;
     padding: 1rem;
+    border-radius: 15px;
+    background-color: #030391;
+    color: white;
+    min-width: 100px;
+    min-height: 51px;
 }
