@@ -1,0 +1,27 @@
+#portfolio section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    align-items: center;
+}
+
+#portfolio section figure {
+    border: 1px solid black;
+    width: min-content;
+    border-radius: 20px;
+    justify-self: center;
+    background-color: #030391;
+    box-shadow: 0 0 4px 4px black;
+}
+
+#portfolio section figcaption {
+    margin: 0 2rem;
+    text-align: center;
+}
+
+#portfolio section img {
+    width: 65vw;
+    border-radius: 20px 20px 0 0;
+}
