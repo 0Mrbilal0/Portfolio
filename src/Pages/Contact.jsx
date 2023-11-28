@@ -35,8 +35,8 @@ function Contact() {
         <>
             <Navigation />
             <main id='contact'>
-                <form action="">
-                    <section id='names' onSubmit={sendMail} >
+                <form action="" onSubmit={sendMail}>
+                    <section id='names'  >
                         <section>
                             <label htmlFor="Lastname" id='lastname-label'>Nom</label>
                             <input type="text" placeholder='Nom' id='lastname' className='input' required />
