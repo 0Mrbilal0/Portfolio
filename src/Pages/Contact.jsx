@@ -14,17 +14,15 @@ function Contact() {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
+        setState(true)
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, TOKEN)  
-            .then((result) => {
-                setState(true)
-                console.log('envoie:')
-                console.log(result.text);
+            .then(() => {
                 handleClick()
-
+                setState(false)
             }, (error) => {
                 console.log(error.text);
-            }).finally(setState(false));
+                setState(false)
+            })
 
     };
 
