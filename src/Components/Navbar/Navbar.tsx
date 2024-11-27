@@ -31,8 +31,8 @@ function Navbar() {
     ]
 
     return (
-        <div className="d-flex flex-column h-100 justify-content-center" style={{ width: "4.5rem" }}>
-            <ul className="nav nav-pills nav-flush flex-column text-center justify-content-center gap-3 m-2">
+        <div className="d-flex flex-column h-100 justify-content-center navbar" style={{boxShadow: "5px 0px 8px 0px rgba(0,0,0,0.47)"}}>
+            <ul className="nav nav-pills nav-flush flex-column text-center justify-content-center gap-3 m-4">
                 {
                     links.map((el: Links) => {
                         return (<Link link={el.link} icon={el.icon} key={el.link} />)

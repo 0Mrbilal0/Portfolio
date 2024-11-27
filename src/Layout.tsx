@@ -2,17 +2,19 @@ import { Component } from "react"
 import Navbar from "./Components/Navbar/Navbar"
 import { Outlet } from "react-router-dom"
 import Tooltips from "./Components/Tooltips"
+import Footer from "./Components/Footer"
 
 class Layout extends Component {
     render() {
         return (
-            // <section className="d-flex h-100 w-100 flex-fill align-items-center">
-            <>
+            <section className="layout">
                 <Navbar />
-                <Outlet />
+                <section className="content">
+                    <Outlet />
+                </section>
+                <Footer />
                 <Tooltips />
-            </>
-            // </section>
+            </section>
         )
     }
 }
