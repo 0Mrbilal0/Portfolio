@@ -11,9 +11,9 @@ function Link(link: Links) {
     }, [actualPage])
 
     return (
-        <li className="nav-item">
-            <a href={link.link} className={`nav-link py-3 ${isActive} border border-dark rounded-circle`}>
-                {link.icon}
+        <li className="nav-item" role="presentation">
+            <a className={"nav-link "+isActive} href={link.link}>
+                {link.name}
             </a>
         </li>
     )

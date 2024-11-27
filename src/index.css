@@ -19,10 +19,10 @@
   display: grid;
   position: relative;
   grid-template-areas: 
-                    "n c"
-                    "f f";
-  grid-template-columns: auto 1fr;
-  grid-template-rows: 1fr auto;
+                    "n"
+                    "n"
+                    "f";
+  grid-template-rows: auto 1fr auto;
 }
 
 .navbar {

@@ -7,7 +7,7 @@ import Footer from "./Components/Footer"
 class Layout extends Component {
     render() {
         return (
-            <section className="layout">
+            <section className="layout bg-dark bg-gradient">
                 <Navbar />
                 <section className="content">
                     <Outlet />
