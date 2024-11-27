@@ -4,7 +4,7 @@ class Home extends Component {
     render() {
         return (
             <section className="w-100 h-100 d-flex flex-column align-items-center justify-content-center">
-                <div className="d-flex flex-column align-items-center bg-light pt-5 position-relative rounded-3 border border-dark">
+                <div className="container d-flex flex-column align-items-center bg-light pt-5 position-relative rounded-3 border border-dark">
                     <div id="image" className="position-absolute top-0 start-50 translate-middle shadow-lg border border-dark" style={{ zIndex: 50, width: "150px", height: "150px", backgroundImage: "url('/pp_pro.jpg')", backgroundSize: "cover", backgroundPositionX: "-50px", borderRadius: "150px" }}></div>
                     <section className="p-3 mt-3 pb-2" style={{ width: "50rem" }}>
                         <p>Je suis développeur Full Stack passionné par la programmation, avec une bonne expérience dans ce domaine.</p>

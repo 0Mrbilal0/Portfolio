@@ -1,0 +1,16 @@
+
+.portfolio {
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+    .portfolio {
+        flex-direction: column !important; 
+        align-items: center;
+    }
+}

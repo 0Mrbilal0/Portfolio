@@ -1,3 +1,5 @@
+import './portfolio.css'
+
 
 interface Projects {
     Titre: string
@@ -34,9 +36,9 @@ function Portfolio() {
                 projects.map((projet,i) => {
                     return (
                         <section className="d-flex flex-column align-items-center" key={projet.Titre}>
-                            <div className="p-5 text-center m-1 d-flex justify-content-center gap-4 flex-wrap w-auto">
-                                <img src="CINEMAX.png" alt="img_cinemax" className="w-50"/>
-                                <section className="d-flex flex-column align-items-center justify-content-center gap-3">
+                            <div className="portfolio">
+                                <img src="CINEMAX.png" alt="img_cinemax" style={{maxWidth:'50%'}}/>
+                                <section className="container d-flex flex-column align-items-center justify-content-center gap-3">
                                     <h1 className="text-light">{projet.Titre}</h1>
                                     <p className=" fs-5 text-light">
                                         {projet.Description}
